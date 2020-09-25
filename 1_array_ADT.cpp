@@ -1,3 +1,5 @@
+// This c++ program is about arrat ADT(ie some basic functionality of array are coded here)
+
 #include<iostream>
 using namespace std;
 main()
