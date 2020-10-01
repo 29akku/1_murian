@@ -21,7 +21,10 @@ int main()
  cout << "1. Create " << endl;
  cout << "2. Display " << endl;
  cin>>n;
- 
+ int ch='y';
+
+while(ch='y')
+{
  switch(n)
  {
  	case 1: int temp;
@@ -35,7 +38,9 @@ int main()
  	case 2: display();
  	case 3: display_recursive(head);
  }
-
+	cout<<"wanna continue";
+	cin>>ch;
+}
  return 0;
 }
 
